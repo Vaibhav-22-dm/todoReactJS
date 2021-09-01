@@ -25,7 +25,7 @@ const Create = () => {
             },
             body: JSON.stringify({title:title,desc:desc,deadline:deadline,creationdate:today,status:'incomplete'})
         }).
-        then(() => {history.push("/")})
+        then(() => {history.push("/todoListServer/")})
     }
 
 
