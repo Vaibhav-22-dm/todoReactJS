@@ -13,13 +13,13 @@ function App() {
         <Navbar username="Vaibhav"/>
         <div className="content">
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/todoReactJS/">
               <List />
             </Route>
-            <Route exact path="/create">
+            <Route exact path="/todoReactJS/create">
               <Create />
             </Route>
-            <Route exact path="/edit/:id">
+            <Route exact path="/todoReactJS/edit/:id">
               <Edit />
             </Route>
           </Switch>

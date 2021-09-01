@@ -7,8 +7,8 @@ const Navbar = ({username}) => {
                 {username}
             </h2>
             <nav>
-                <Link to="/">All</Link>
-                <Link to='/create'>Create</Link>
+                <Link to="/todoReactJS/">All</Link>
+                <Link to='/todoReactJS/create'>Create</Link>
             </nav>
         </header>
     );

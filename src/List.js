@@ -20,7 +20,7 @@ const List = () => {
         }).
         then(() => {
             getTasks()
-            history.push("/")
+            history.push("/todoReactJS/")
         })
     }
 
@@ -49,7 +49,7 @@ const List = () => {
         }).
         then(() => {
             getTasks()
-            history.push("/")
+            history.push("/todoReactJS/")
         })
     }
 
@@ -89,7 +89,7 @@ const List = () => {
                         <td>
                             <Link to={
                                 {
-                                    pathname:`/edit/${task.id}`,
+                                    pathname:`/todoReactJS/edit/${task.id}`,
                                     // props:{
                                     //     task:task
                                     // }

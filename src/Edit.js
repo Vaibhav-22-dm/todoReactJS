@@ -42,7 +42,7 @@ const Edit = () => {
         then(() => {
             console.log(title)
             console.log(1001)
-            history.push("/")})
+            history.push("/todoReactJS/")})
         .catch((error) => {
             console.log(error)
         })
